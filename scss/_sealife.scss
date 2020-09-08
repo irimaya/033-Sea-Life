@@ -1,0 +1,242 @@
+// Header
+#top {
+  background: url('../img/showcase.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+// Navbar
+#navbar {
+  a {
+    color: #fff;
+  }
+  .logo {
+    float: left;
+    font-size: 1.7rem;
+    margin-top: 10px;
+    font-weight: 400;
+  } //End .logo
+  ul {
+    float: right;
+    li {
+      list-style: none;
+      float: left;
+      a {
+        display: block;
+        padding: 20px;
+        text-align: center;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+    }
+  } //End ul
+} //End #navbar
+
+.navbar-gallery {
+  background: #000;
+  color: #fff;
+}
+
+// Showcase
+#showcase {
+  color: #fff;
+  text-align: center;
+  padding: 290px 90px; 
+}
+
+// Gallery
+#gallery {
+  text-align: center;
+  .gallery-wrap {
+    display: flex;
+    justify-content: center;
+    &-box {
+      position: relative;
+      width: 300px;
+    }
+    &-box:hover .overlay {
+      opacity: 1;
+    }
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 300px;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #f2f7fa;
+      text-align: center;
+      padding: 100px 50px;
+      a {
+        color: #fff;
+      }
+    }
+    &-box-1 {
+      background: url('../img/gallery-01.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-2 {
+      background: url('../img/gallery-02.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-3 {
+      background: url('../img/gallery-03.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-4 {
+      background: url('../img/gallery-04.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-5 {
+      background: url('../img/gallery-05.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-6 {
+      background: url('../img/gallery-06.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-7 {
+      background: url('../img/gallery-07.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+    &-box-8 {
+      background: url('../img/gallery-08.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 400px;
+      margin: 10px;
+    }
+  } //End .gallery-wrap
+} //End #gallery
+
+// About
+#about {
+  background: #000;
+  color: #fff;
+  .about-wrap {
+    display: flex;
+    &-img {
+      img {
+        height: 600px;
+      }
+    }
+    &-content {
+      padding: 80px;
+    }
+  } //End .about-wrap
+} //End #about
+
+// Contact
+#contact {
+  form {
+    width: 40%;
+    margin: auto;
+    input,
+    textarea {
+      background: #ededed;
+      border: 0;
+    }
+  }
+}
+
+// Footer
+#mainfooter {
+  background: #000;
+  color: #fff;
+  margin: 0;
+}
+
+// Section
+#section {
+  .section-img-01 {
+    background: url('../img/gallery-01.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-02 {
+    background: url('../img/gallery-02.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-03 {
+    background: url('../img/gallery-03.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-04 {
+    background: url('../img/gallery-04.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-05 {
+    background: url('../img/gallery-05.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-06 {
+    background: url('../img/gallery-06.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-07 {
+    background: url('../img/gallery-07.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+  .section-img-08 {
+    background: url('../img/gallery-08.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+  }
+}
